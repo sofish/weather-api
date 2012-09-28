@@ -26,7 +26,7 @@ foreach($weather_code as $city => $code) { ?>
         changeCity =$('changecity'),
         weather  = $('weather'),
         applySrc = function(city){
-            return weather.src = './weather.php?city=' + encodeURIComponent(city);
+            return weather.src = './weather.php?date=<?php data(ymd) ?>&?city=' + encodeURIComponent(city);
         };
 
     applySrc(changeCity.value);
