@@ -13,6 +13,7 @@
 <iframe id="weather" src="javascript:void(0)" frameborder="0" width="160" height="20" scrolling="no"></iframe>
 <select id="changecity">
 <?php include dirname(__FILE__) . '/weather_code.php';
+
 foreach($weather_code as $city => $code) { ?>
     <option value="<?= $city ?>"><?= $city ?></option>
 <? } ?>
@@ -26,7 +27,7 @@ foreach($weather_code as $city => $code) { ?>
         changeCity =$('changecity'),
         weather  = $('weather'),
         applySrc = function(city){
-            return weather.src = './weather.php?date=<?php data(ymd) ?>&?city=' + encodeURIComponent(city);
+            return weather.src = './weather.php?city=' + encodeURIComponent(city);
         };
 
     applySrc(changeCity.value);
