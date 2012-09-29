@@ -1,0 +1,8 @@
+{
+    "\u0110\u00f4ng B\u1eafc B\u1ed9": ["VMXX0002", "VMXX0020", "VMXX0005", "VMXX0006", "VMXX0023", "VMXX0011", "VMXX0015", "VMXX0017"],
+    "Nam B\u1ed9": ["VMXX0003", "VMXX0031", "VMXX0004", "VMXX0007", "VMXX0010", "VMXX0012", "VMXX0032", "VMXX0018"],
+    "Trung B\u1ed9": ["VMXX0028"],
+    "B\u1eafc Trung B\u1ed9": ["VMXX0027", "VMXX0009", "VMXX0025", "VMXX0026"],
+    "T\u00e2y B\u1eafc B\u1ed9": ["VMXX0008", "VMXX0019"],
+    "Nam Trung B\u1ed9": ["VMXX0029", "VMXX0013", "VMXX0016"]
+}
