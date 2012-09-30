@@ -15,7 +15,7 @@ weather.php						iframe 缓存页
 weather_code.php				中国城市代码（最主要代码）
 ```
 
-API 接口 http://m.weather.com.cn/data/城市代码.html，请求结果是一个 JSON 对象：
+API 接口 [http://m.weather.com.cn/data/城市代码.html](http://m.weather.com.cn/data/101010100.html)，请求结果是一个 JSON 对象：
 
 ```js
 {
