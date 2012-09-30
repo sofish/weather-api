@@ -1,19 +1,18 @@
 weather-api
 ===========
 
-Licensed under: MIT
+Licensed under: [MIT](http://en.wikipedia.org/wiki/MIT_License)
 
 提供一个从 weather.com.cn 上根据城市接口取天气信息的方法。如果只是小网站引用，不考虑搞挂中国天气网的话，可以直接在[这里](http://service.weather.com.cn/plugin/index.shtml)选择一个官方提供的 iframe 页，如果是像 hao123 这样的大网站，你可能需要这些资源：
 
 ```ruby
-.
-── i18n							中国以外城市
+i18n							中国以外城市
 # id.js 是 cityid 与 city 名的对应
 # area.js 是区域 与city 的对应[在天朝可以理解为省份]
 
-── index.php					演示页
-── weather.php					iframe 缓存页
-── weather_code.php				中国城市代码（最主要代码）
+index.php						演示页
+weather.php						iframe 缓存页
+weather_code.php				中国城市代码（最主要代码）
 ```
 
 API 接口 http://m.weather.com.cn/data/城市代码.html，请求结果是一个 JSON 对象：
